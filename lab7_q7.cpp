@@ -1,4 +1,4 @@
-/including library
+//including library
 #include <iostream>
 using namespace std;
 int reverse(int n,int m){
