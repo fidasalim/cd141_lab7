@@ -15,13 +15,7 @@ int main(){
 	int m;
 	//asking a number
 	cout<<"type a number : ";cin>>m;
-	int z=int (reverse(m));cout<<endl;
-	if (z==m){
-	cout<<"The number "<<m<< " is palindromic"<<endl;
-}
-	else{
-	cout<<"The number "<<m<< " is not palindromic"<<endl;
-}
+	cout<<"The reverse of the number "<<m<<" is "<<reverse(m)<<endl;
 return 0;
 
 }
