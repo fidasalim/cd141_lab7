@@ -7,7 +7,7 @@ int fib(int n){
 	return 0;}
 	if(n==2){
 	return 1;}
-	//m the tern of fibonacci sequence
+	//n the term of fibonacci sequence
 	else{
 	return fib(n-1)+fib(n-2);}
 }
